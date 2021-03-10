@@ -13,9 +13,3 @@ class Solution:
                 maxArea = max(area, maxArea)
                 left += 1
         return maxArea
-
-x = Solution()
-height1 = [1,8,6,2,5,4,8,3,7]
-height2 = [1, 1]
-height3 = [4,3,2,1,4]
-print(x.maxArea(height1))
